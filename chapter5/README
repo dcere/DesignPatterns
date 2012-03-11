@@ -1,2 +1,6 @@
 1: Staying informed
-2: Staying informed II 
+2: Staying informed II
+3: Factoring out the Observable Support (with class)
+4: Factoring out the Observable Support (with module)
+5: Factoring out the Observable Support (with Ruby's Observable module)
+6: Code blocks as Observers
