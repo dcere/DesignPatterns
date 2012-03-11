@@ -1,4 +1,4 @@
-require 'task2.rb'
+require 'task3.rb'
 
 class CompositeTask < Task
 
@@ -7,12 +7,16 @@ class CompositeTask < Task
       @sub_tasks = []
    end
    
-   def add_sub_task(task)
+   def <<(task)
       @sub_tasks << task
    end
    
    def remove_sub_task(task)
       @sub_tasks.delete(task)
+   end
+   
+   def [](index)
+      @sub_tasks[index]
    end
    
    def get_time_required
