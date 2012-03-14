@@ -7,7 +7,7 @@ class CompositeTask < Task
       @sub_tasks = []
    end
    
-   def <<(task)
+   def <<(task)      # Changes
       @sub_tasks << task
    end
    
@@ -15,7 +15,7 @@ class CompositeTask < Task
       @sub_tasks.delete(task)
    end
    
-   def [](index)
+   def [](index)     # Changes
       @sub_tasks[index]
    end
    

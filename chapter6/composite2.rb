@@ -1,6 +1,6 @@
 require 'task2.rb'
 
-class CompositeTask < Task
+class CompositeTask < Task    # Changes
 
    def initialize(name)
       super(name)

@@ -1,7 +1,7 @@
 require 'composite2.rb'
 require 'leafs2.rb'
 
-class MakeBatterTask < CompositeTask
+class MakeBatterTask < CompositeTask      # Changes
 
    def initialize
       super('Make batter')
