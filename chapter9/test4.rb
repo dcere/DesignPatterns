@@ -1,10 +1,10 @@
-require 'britishtextobject3.rb'
-require 'renderer3.rb'
+require 'britishtextobject4.rb'
+require 'renderer4.rb'
 
 
 bto = BritishTextObject.new("Quite",100,"Army Blue Royal")
 
-class BritishTextObject
+class << bto
    
    def text
       return string
