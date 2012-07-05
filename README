@@ -1,9 +1,11 @@
 Design Patterns in Ruby
 (from Russ Olsen's book)
 
-Chapter 3: Template Method pattern
-Chapter 4: Strategy pattern
-Chapter 5: Observer pattern
-Chapter 6: Composite pattern
-Chapter 7: Iterator pattern
-Chapter 8: Command pattern
+Chapter 3:  Template Method pattern
+Chapter 4:  Strategy pattern
+Chapter 5:  Observer pattern
+Chapter 6:  Composite pattern
+Chapter 7:  Iterator pattern
+Chapter 8:  Command pattern
+Chapter 9:  Adapter pattern
+Chapter 10: Proxy pattern
