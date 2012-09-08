@@ -1,5 +1,5 @@
 # Description:
-#   Updates files version
+#   Modifies files version
 #
 # Synopsis:
 #   version.sh <mode> <previous> <next>
