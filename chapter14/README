@@ -2,3 +2,4 @@
 2: Polymorphic builders
 3: Builders can ensure sane objects
 4: Reusable builders
+5: Better builders with magic methods
