@@ -2,12 +2,10 @@
 #   Updates files version
 #
 # Synopsis:
-#   version.sh <mode> <chapter> <previous> <next>
+#   update.sh <chapter> <previous> <next>
 #
 # Arguments:
-#   - Mode: Running mode
-#     - test: testing mode
-#     - real: no testing 
+#   - Chapter: The directory from which you want to update the files
 #   - Previous: Version from which files will be updated
 #   - Next: Version to which files will be updated
 #
