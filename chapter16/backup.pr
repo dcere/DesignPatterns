@@ -1,0 +1,3 @@
+backup    '/home/david/bookmarks.html'
+to        '/home/david/Escritorio'
+interval  30
