@@ -2,7 +2,6 @@ require 'find'
 
 class Expression
 
-
    # Syntactic sugar
    def |(other)
       Or.new(self, other)
@@ -11,31 +10,6 @@ class Expression
 
    def &(other)
       And.new(self, other)
-   end
-
-
-   def all
-      All.new
-   end
-
-
-   def bigger(size)
-      Bigger.new(size)
-   end
-
-
-   def name(pattern)
-      FileName.new(pattern)
-   end
-
-
-   def except(expression)
-      Not.new(expression)
-   end
-
-
-   def writable
-      Writable.new
    end
 
 end
