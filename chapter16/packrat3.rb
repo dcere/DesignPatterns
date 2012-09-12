@@ -20,5 +20,5 @@ def interval(minutes)
 end
 
 
-eval(File.read('backup.pr'))
+eval(File.read('backup3.pr'))
 Backup.instance.run

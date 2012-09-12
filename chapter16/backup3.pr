@@ -1,0 +1,3 @@
+backup    '/home/david/pruebas', name('*.rb')
+to        '/home/david/Escritorio/Pruebas-Ruby'
+interval  30

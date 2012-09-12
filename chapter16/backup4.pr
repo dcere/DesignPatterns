@@ -1,0 +1,13 @@
+# Backup bookmarks
+Backup.new do |b|
+   b.backup    '/home/david/bookmarks.html'
+   b.to        '/home/david/Escritorio'
+   b.interval  30
+end
+
+# Backup ruby files
+Backup.new do |b|
+   b.backup    '/home/david/pruebas', name('*.rb')
+   b.to        '/home/david/Escritorio/Pruebas-Ruby'
+   b.interval  30
+end
